@@ -21,6 +21,10 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <!-- Tambahkan mainClass agar repackage berhasil -->
+                    <mainClass>com.example.JavaMavenAppApplication</mainClass>
+                </configuration>
             </plugin>
 
             <!-- to handle any Java version mismatch, add the following configuration for maven-compiler-plugin -->
